@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Velvet Vault — a museum heist</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0b0d16; height: 100%; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: sans-serif; }
+  #game { width: 1280px; height: 800px; max-width: 100vw; max-height: calc(100vh - 40px); background: #171a2e; box-shadow: 0 0 60px rgba(0,0,0,0.8); }
+  #status { color: #c8cdd8; font-size: 14px; padding: 10px 0 0; text-align: center; }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="800"></canvas>
+<div id="status">Lift the loot, then escape.</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
